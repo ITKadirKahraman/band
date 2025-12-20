@@ -3,188 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Economica:wght@700&display=swap" rel="stylesheet">
-
-
-    <link rel="icon" type="image/svg+xml" href="assets/img/1_hero/SVG/sakura_logo.svg">
-
-    <link rel="stylesheet" href="menu.html">
-    <link rel="stylesheet" href="locations.html">
-    <link rel="stylesheet" href="about.html">
     <link rel="stylesheet" href="style.css">
-    <title>Sakura Ramen</title>
+    <link rel="stylesheet" href="brain.js">
+    <title>Band Webseite</title>
 </head>
-
 <body>
-    <section class="head">
-            <header>
-                <div class="menuboard">
-                    <div class="logo">
-                        <img src="assets/img/1_hero/SVG/sakura_logo.svg">
-                    </div>
-                    <nav class="menuTabs">
-                        <a href="#menu">MENU</a>
-                        <a href="#locations">LOCATIONS</a>
-                        <a href="#about">ABOUT</a>        
-
-                        <a class="btnPhone" href="tel:0176 54564534">
-                            <img src="assets/img/1_hero/SVG/phone.svg">0176 54564534
-                        </a>
-                    </nav>
-                </div>
-            </header>
-        <div class="headText">
-            <div class="h1">
-                <h1>SAKURA RAMEN</h1>
+    <header class="header">
+        <nav class="navigation">
+            <img class="logo" src="./img/header/logo.png" alt="Logo vom Band">
+            <div class="navTextIcon">
+                <a href="">HOME</a>
+                <a href="">LOCATIONS</a>
+                <a href="">ABOUT</a>
+                <a href="">CONTACT</a>
+                <img src="/img/header/facebook_white.png" alt="Facenook Logo">
+                <img src="/img/header/instagram_white.png" alt="Instagram Logo">
+                <img src="/img/header/twitter_white.png" alt="Twitter Logo">
             </div>
-            <div class="span">
-                <span>THE BEST RAMEN IN TOWN</span>
+        </nav>
+        <article class="headerText">
+            <h1>ROCK MOUNTAIN</h1>
+            <p>Discover the best live music</p>
+            <button onclick="showLocation()">UPCOMING SHOW</button>
+        </article>
+    </header>
+    <main>
+        <section>
+            <div class="threeImages">
+                <p>NEWS</p>
+                <img src="" alt="">
             </div>
-        </div>
-    </section>
-    <section class="orderSection">
-        <h2>HOW TO ORDER</h2>
-        <div class="order">
-            <div class="orderIcon">
-                <div class="noodle">
-                    <div class="orderImg">
-                        <img src="assets/img/2_section_how_to_order/SVG/noodle.svg">
-                    </div>
-                    <div class="orderText">
-                        <span>Pick your <br>noodle</span>
-                    </div>
-                </div>
-                <div class="broth">
-                    <div class="orderImg">
-                        <img src="assets/img/2_section_how_to_order/SVG/broth.svg">
-                    </div>
-                    <div class="orderText">
-                        <span>Pick your <br>broth</span>
-                    </div>
-                </div>
-                <div class="toppings">
-                    <div class="orderImg">
-                        <img src="assets/img/2_section_how_to_order/SVG/egg.svg">
-                    </div>
-                    <div class="orderText">
-                        <span>Add your <br>toppings</span>
-                    </div>
-                </div>
+            <div class="threeImages">
+                <p>ALBUM</p>
+                <img src="" alt="">
             </div>
-        </div>
-    </section>
-    <section id="menu" class="menuSection">
-        <h2>OUR MENU</h2>
-        <div class="ourMenu">
-            <div class="ramen">
-                <div class="ramenImg">
-                    <img src="assets/img/3_section_our_menu/Png/R1.png">
-                </div>
-                <div class="menuTable">
-                    <table>
-                        <tr>
-                            <th>Tonkotsu Ramen</th>
-                        </tr>
-                        <tr>
-                            <td>CHICKEN</td>
-                            <td>11.95€</td>
-                        </tr>
-                        <tr>
-                            <td>BEEF</td>
-                            <td>12.95€</td>
-                        </tr>
-                        <tr>
-                            <td>SHRIMP</td>
-                            <td>13.95€</td>
-                        </tr>
-                    </table>
-                </div>
+            <div class="threeImages">
+                <p>STORE</p>
+                <img src="" alt="">
             </div>
-            <div class="ramen spicyRamen">
-                <div class="menuTable">
-                    <table>
-                        <tr>
-                            <th>Spicy Miso Ramen</th>
-                        </tr>
-                        <tr>
-                            <td>CHICKEN</td>
-                            <td>11.95€</td>
-                        </tr>
-                        <tr>
-                            <td>BEEF</td>
-                            <td>12.95€</td>
-                        </tr>
-                        <tr>
-                            <td>SHRIMP</td>
-                            <td>13.95€</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="ramenImg">
-                    <img src="assets/img/3_section_our_menu/Png/R2.png">
-                </div>
-            </div>
-            <div class="ramen">
-                <div class="ramenImg">
-                    <img src="assets/img/3_section_our_menu/Png/R3.png">
-                </div>
-                <div class="menuTable">
-                    <table>
-                        <tr>
-                            <th>SHIO RAMEN</th>
-                        </tr>
-                        <tr>
-                            <td>CHICKEN</td>
-                            <td>11.95€</td>
-                        </tr>
-                        <tr>
-                            <td>BEEF</td>
-                            <td>12.95€</td>
-                        </tr>
-                        <tr>
-                            <td>SHRIMP</td>
-                            <td>13.95€</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="mapSection">
-        <div class="anfahrt">
-            <div id="about" class="mapH2">
-                <h2>FIND US AT</h2>
-            </div>
-            <div class="adresse">
-                <span><img src="assets/img/4_section_find_us_at/SVG/map_marker.svg">Kapuzinerstraße 31, München, 80337</span>
-            </div>
-        </div>
-        <div id="locations" class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5326.251684358727!2d11.565081099999999!3d48.1270965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf5c82acbc9d%3A0x8bac97d054d1bb5a!2sAlter%20S%C3%BCdfriedhof!5e0!3m2!1sde!2sde!4v1765399809687!5m2!1sde!2sde" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
+        </section>
+        <section class="slogan">
+            <p class="sloganText">FOLLOW AND LISTEN TO THIS PLAYLIST TO</p>
+            <p class="sloganText">GET PREPARED FOR THE SHOW!</p>
+        </section>
+        <section>
+            <img class="video" src="/img/video/bottom.png" alt="Video">
+        </section>
+    </main>
+    <footer></footer>
 </body>
-<footer>
-    <div class="footerContainer">
-        <div class="footerLogo ">
-            <img src="assets/img/5_section_footer/SVG/sakura_ramen_logo_and_text.svg">
-        </div>
-        <div class="icons">
-            <img src="assets/img/5_section_footer/SVG/tripadvisor_logo.svg" alt="">
-            <img src="assets/img/5_section_footer/SVG/facebook_logo.svg" alt="">
-            <img src="assets/img/5_section_footer/SVG/instagram_logo.svg" alt="">
-        </div>
-    </div>
-</footer>
 </html>
