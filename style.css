@@ -72,6 +72,20 @@
     border-radius: 5px;
 }
 
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: gold;
+}
+
+.threeImages {
+    width: 160px;
+    height: 160px;
+    gap: 10px;
+}
+
 .slogan{
     background-color: white;
     margin: 40px;
@@ -91,4 +105,29 @@
 .video{
     width: 100%;
     height: 150vh;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: black;
+}
+
+.footerText{
+    color: white;
+}
+
+.footerRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerRight img {
+    height: 28px;
+    width: 28px;
+    gap: 30px;
+    justify-content: center;
 }
